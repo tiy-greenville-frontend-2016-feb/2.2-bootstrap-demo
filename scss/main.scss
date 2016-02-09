@@ -1,0 +1,30 @@
+@import "variables";
+@import "skateboarders";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("http://unsplash.it/g/1920/1920") 0 0 fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  background: url("http://unsplash.it/1024/337") center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 337px;
+  border: 2px solid white;
+}
+
+article h1,
+article p {
+  background-color: white;
+}
